@@ -1,0 +1,14 @@
+<ConfigRoot>
+
+  <service id='0080'>
+    <id>razor</id>
+    <rule id='0000'>
+      <direction>outbound</direction>
+      <protocol>tcp</protocol>
+      <port type='dst'>8150</port>
+    </rule>
+   <enabled>true</enabled>
+   <required>false</required>
+  </service>
+
+</ConfigRoot>
